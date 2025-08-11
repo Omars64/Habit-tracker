@@ -1,0 +1,92 @@
+{
+  "habits": [
+    {
+      "id": "habit-1",
+      "name": "Smoking",
+      "description": "Trying to quit smoking for better health and financial savings",
+      "motivationalQuotes": [
+        "Every cigarette you don't smoke is a victory for your health",
+        "Your lungs are healing with every smoke-free day",
+        "Think about the money you're saving by not smoking",
+        "You're stronger than your cravings"
+      ],
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "lastOccurrence": "2024-01-10",
+      "totalOccurrences": 3
+    },
+    {
+      "id": "habit-2",
+      "name": "Nail Biting",
+      "description": "Want to stop biting my nails for better appearance and hygiene",
+      "motivationalQuotes": [
+        "Beautiful nails are worth the effort",
+        "Your hands deserve better treatment",
+        "Notice the urge and choose a healthier alternative"
+      ],
+      "createdAt": "2024-01-05T00:00:00.000Z",
+      "lastOccurrence": "2024-01-12",
+      "totalOccurrences": 5
+    },
+    {
+      "id": "habit-3",
+      "name": "Procrastination",
+      "description": "Avoiding important tasks and delaying work until the last minute",
+      "motivationalQuotes": [
+        "The best time to start was yesterday, the second best time is now",
+        "Small progress is still progress",
+        "You'll feel amazing once you start",
+        "Break it down into smaller steps"
+      ],
+      "createdAt": "2024-01-03T00:00:00.000Z",
+      "lastOccurrence": null,
+      "totalOccurrences": 0
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry-1",
+      "habitId": "habit-1",
+      "date": "2024-01-08",
+      "timestamp": "2024-01-08T14:30:00.000Z",
+      "notes": "Had a stressful meeting at work and reached for a cigarette. Need to find better stress management techniques.",
+      "mood": "bad",
+      "triggers": ["work stress", "meeting anxiety"]
+    },
+    {
+      "id": "entry-2",
+      "habitId": "habit-1",
+      "date": "2024-01-10",
+      "timestamp": "2024-01-10T19:15:00.000Z",
+      "notes": "Social situation with friends who smoke. Found it hard to resist. Maybe I should avoid smoking areas for now.",
+      "mood": "neutral",
+      "triggers": ["social pressure", "friends smoking"]
+    },
+    {
+      "id": "entry-3",
+      "habitId": "habit-2",
+      "date": "2024-01-09",
+      "timestamp": "2024-01-09T10:20:00.000Z",
+      "notes": "Was watching TV and mindlessly started biting nails. Need to keep hands busy with something else.",
+      "mood": "neutral",
+      "triggers": ["boredom", "mindless activity"]
+    },
+    {
+      "id": "entry-4",
+      "habitId": "habit-2",
+      "date": "2024-01-11",
+      "timestamp": "2024-01-11T16:45:00.000Z",
+      "notes": "Nervous about presentation tomorrow. Caught myself biting nails while preparing. Used stress ball instead after noticing.",
+      "mood": "good",
+      "triggers": ["anxiety", "presentation nerves"]
+    },
+    {
+      "id": "entry-5",
+      "habitId": "habit-2",
+      "date": "2024-01-12",
+      "timestamp": "2024-01-12T08:30:00.000Z",
+      "notes": "Morning anxiety about the day ahead. Need better morning routine to manage stress.",
+      "mood": "bad",
+      "triggers": ["morning anxiety", "daily stress"]
+    }
+  ]
+}
